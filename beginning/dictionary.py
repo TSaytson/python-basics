@@ -7,7 +7,7 @@ print("cars['BYD Seal']:", cars['BYD Seal'])
 print(cars.keys())
 print(cars.values())
 
-family = dict(Thiago="Papi", Mariana="Mama", Donzinho="firo")
+family = dict(Thiago="Papi", Mariana="Mami", Donzinho="firo")
 
 print(family)
 
