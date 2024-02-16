@@ -1,1 +1,4 @@
 2=5;5=5;10=5;20=5;50=5;100=5;200=5;
+  0001-01;Some Name;1234;370028030;False;
+0001-02;Some other name;1234;82380402;False;
+0001-00;Still another name;somePassword;1000000000000;True;

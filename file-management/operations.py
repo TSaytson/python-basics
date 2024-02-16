@@ -1,5 +1,6 @@
 import getpass
 from bank_data import accounts_list, money_slips, money_slips_user
+import file
 
 def auth_account() -> str:
   account_number = input("Enter your account number: ")
@@ -55,6 +56,7 @@ def withdraw():
   else:
     for money_bill in money_slips_user:
       money_slips[money_bill] -= money_slips_user[money_bill]
+    file.save_money_slips()
     print("You can pick up your bank notes")
     print(money_slips_user)
     press_to_continue()
